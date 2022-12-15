@@ -1,0 +1,86 @@
+/* Tipografias */
+@font-face {
+    font-family: "fuente";
+    src: url(../fonts/TVSansScreenMed-Regular.woff2) format("woff2"), url(../fonts/TVSansScreenMed-Regular.woff) format("woff"), url(../fonts/TVSansScreenMed-Regular.ttf) format("ttf");
+  }
+
+/* Contenedor */
+.container {
+  background-color: #1C602F;
+  height: 70rem;
+  width: 390px;
+  text-align: center;
+  justify-content: center;
+}
+
+/* Titulos */
+h1{
+  font-family: "fuente";
+}
+
+h3{
+    color: white;
+    font-family: "fuente";
+}
+
+/* Seccion Retrato  */
+.imagenRetrato{
+    background-color: black; 
+    display: flex;
+}
+
+.Retrato{
+    width: 70%;
+    margin-right: 30px;
+    flex-direction: row;
+}
+
+/* Seccion Libro */
+.Seccion_Libro{
+    display: flex;
+    margin-top: 30px;
+}
+
+.Libro{
+    width: 100%;
+    margin-right: 30px;
+}
+
+.parrafo_libro{
+    display: flex;
+    font-size: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "fuente";
+}
+
+/* Seccion Mapa */
+.Seccion_Mapa{
+    display: flex;
+    margin-top: 30px;
+}
+
+.Mapa{
+    width: 100%;
+    margin-right: 0px;
+}
+
+#direccion{
+    color: white;
+    font-family: "fuente";
+}
+
+/* Seccion Footer */
+footer{
+    background-color: black;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+footer h2{
+    color: #1C602F;
+}
+
+
+
