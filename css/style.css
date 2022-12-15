@@ -1,4 +1,4 @@
-/* Tipografias */
+/* Tipografia */
 @font-face {
     font-family: "fuente";
     src: url(../fonts/TVSansScreenMed-Regular.woff2) format("woff2"), url(../fonts/TVSansScreenMed-Regular.woff) format("woff"), url(../fonts/TVSansScreenMed-Regular.ttf) format("ttf");
@@ -80,6 +80,41 @@ footer{
 
 footer h2{
     color: #1C602F;
+}
+
+/* Seccion Redes Sociales */
+.rdss{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  padding-top: 10px;
+}
+
+.Facebook{
+  background-image: url(../img/svg/Facebook.svg);
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Twitter{
+  background-image: url(../img/svg/twitter.svg);
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Instagram{
+  background-image: url(../img/svg/Instagram.svg);
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 
