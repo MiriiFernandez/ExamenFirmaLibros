@@ -48,7 +48,7 @@ h3{
 
 .parrafo_libro{
     display: flex;
-    font-size: 20px;
+    font-size: 1.25rem;
     flex-wrap: wrap;
     justify-content: center;
     font-family: "fuente";
